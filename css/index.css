@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Space+Mono:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -8,6 +8,7 @@
 
 :root {
     --ff-space-mono: 'Space Mono', monospace;
+    --ff-montserrat: 'Montserrat', sans-serif;
 }
 
 body {
@@ -43,8 +44,29 @@ h1 {
     padding: 1.5rem 2.5rem;
     background-color: #333;
     color: #fff;
+    cursor: pointer;
 }
 
 .scarecrow-404 {
     max-width: 540px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 1.5rem;
+    width: 100%;
+    font-family: var(--ff-montserrat);
+    font-size: .85rem;
+    color: #A9A9A9;
+    text-align: center;
+}
+
+.footer span {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.nowrap {
+    white-space: nowrap;
 }
