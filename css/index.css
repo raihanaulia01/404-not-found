@@ -5,3 +5,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --ff-space-mono: 'Space Mono', monospace;
+}
+
+body {
+    font-family: var(--ff-space-mono);
+    margin: 2.5rem 5rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 5rem;
+    margin-top: 12.5rem;
+}
+
+.wrapper-content {
+    max-width: 40%;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.4;
+}
+
+.wrapper-content p {
+    font-size: 1.5rem;
+    max-width: 30ch;
+    margin-top: 2rem;
+}
+
+.wrapper-content button {
+    margin-top: 4rem;
+    border: 0;
+    padding: 1.5rem 2.5rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.scarecrow-404 {
+    max-width: 540px;
+}
