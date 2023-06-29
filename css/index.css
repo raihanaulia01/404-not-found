@@ -10,12 +10,12 @@
     --ff-space-mono: 'Space Mono', monospace;
     --ff-montserrat: 'Montserrat', sans-serif;
 
+    --primary: hsl(0, 0%, 20%);
     --gray-1: hsl(0, 0%, 20%);
     --gray-2: hsl(0, 0%, 31%);
-    --background-color: hsl(0, 0%, 100%);
     --light-gray: hsl(0, 0%, 66%);
-    --primary: hsl(0, 0%, 20%);
     --button-text: hsl(0, 0%, 100%);
+    --background-color: hsl(0, 0%, 100%);
 }
 
 body {
@@ -81,9 +81,10 @@ h1 {
     margin: auto 0 1.5rem 0;
 }
 
-.footer span {
+.footer a {
     text-decoration: underline;
     font-weight: 700;
+    color: inherit;
 }
 
 .nowrap {
@@ -129,10 +130,10 @@ h1 {
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --primary: hsl(0, 0%, 13%);
         --gray-1: hsla(0, 0%, 100%, 0.87);
         --gray-2: hsla(0, 0%, 100%, 0.7);
+        --light-gray: hsla(0, 0%, 100%, .55);
         --background-color: hsl(0, 0%, 5%);
-        --light-gray: hsl(0, 0%, 66%);
-        --primary: hsl(0, 0%, 13%);
     }
 }
