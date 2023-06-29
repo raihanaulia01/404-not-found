@@ -22,23 +22,23 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: var(--ff-space-mono);
     margin: 0 2rem;
+    font-family: var(--ff-space-mono);
     background-color: var(--background-color);
 }
 
 .top-text {
-    color: var(--gray-1);
     margin: 2.5rem 0 0 3rem;
-    font-size: 1.5rem;
+    color: var(--gray-1);
     font-weight: 700;
+    font-size: 1.5rem;
 }
 
 .wrapper {
     display: flex;
+    flex-grow: 1;
     justify-content: space-evenly;
     margin: 12.5rem 0 2.5rem 0;
-    flex-grow: 1;
 }
 
 .wrapper-content {
@@ -46,26 +46,26 @@ body {
 }
 
 h1 {
+    color: var(--gray-1);
     font-size: 4rem;
     line-height: 1.4;
-    color: var(--gray-1);
     text-wrap: balance;
 }
 
 .wrapper-content p {
-    font-size: 1.5rem;
-    color: var(--gray-2);
     max-width: 30ch;
     margin-top: 2rem;
+    color: var(--gray-2);
+    font-size: 1.5rem;
 }
 
 .wrapper-content button {
     margin-top: 4rem;
-    border: 0;
     padding: 1.5rem 2.5rem;
-    background-color: var(--primary);
+    border: 0;
     color: var(--button-text);
     cursor: pointer;
+    background-color: var(--primary);
 }
 
 .scarecrow-404 {
@@ -74,17 +74,17 @@ h1 {
 }
 
 .footer {
-    font-family: var(--ff-montserrat);
-    font-size: .85rem;
-    text-align: center;
-    color: var(--light-gray);
     margin: auto 0 1.5rem 0;
+    color: var(--light-gray);
+    font-size: .85rem;
+    font-family: var(--ff-montserrat);
+    text-align: center;
 }
 
 .footer a {
-    text-decoration: underline;
-    font-weight: 700;
     color: inherit;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .nowrap {
